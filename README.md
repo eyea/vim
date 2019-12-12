@@ -16,5 +16,8 @@ $ vim
 // Unreload the Plugins not in the lists(.vimrc)： :BundleClean"
 ```
 
+### Notes
+1. [vim issues](https://github.com/eyea/daily-grocery/issues/1)
+
 ### Enjoy
 🙂
