@@ -29,10 +29,11 @@ set nowritebackup
 "set encoding=utf-8
 
 set laststatus=2
-"set number                                    "显示行号
+set number                                    "显示行号
 "set undofile                                  "无限undo
 "set nowrap                                    "禁止自动换行
-"autocmd! bufwritepost _vimrc source %         "自动载入配置文件不需要重启
+autocmd! bufwritepost _vimrc source %          "自动载入配置文件不需要重启
+autocmd VimEnter * NERDTree                    "打开 vim 默认打开 NERDTree
 
 "相对行号 要想相对行号起作用要放在显示行号后面
 set relativenumber
