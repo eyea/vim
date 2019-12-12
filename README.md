@@ -1,7 +1,7 @@
 # vim
 This is eyea's vim files.
 
-### how to use vim
+### How to use vim
 1. Copy `vimrc` (this repo includes) to your directory `~/`
 2. [Setup Vundle](https://github.com/VundleVim/Vundle.vim#quick-start)
 ```js
